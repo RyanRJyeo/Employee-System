@@ -2,6 +2,32 @@
 
 > Full Stack CRUD App
 
+## App Info
+
+### Frameworks
+
+Front-End: [React.js](https://reactjs.org/), [Bootstrap](https://getbootstrap.com/)
+
+Back-End: [Node.js](https://nodejs.org/en/), [Express](https://expressjs.com/)
+
+Database: [PostgreSQL](https://www.postgresql.org/)
+
+Installation of the above applications is necessary for the app to run.
+
+
+## Configurations
+
+Under index.js folder (adjust the following configurations to your own computer):
+``` bash
+const configs = {
+user: 'your computer username',
+host: '127.0.0.1',
+database: 'your database name',
+port: 5432,
+};
+```
+
+
 ## Quick Start
 
 ``` bash
@@ -23,13 +49,7 @@ npm run react
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
-## App Info
 
-### Frameworks
-
-Front-End: React.js, Bootstrap
-
-Back-End: Node.js, Express
 
 ### Author
 
