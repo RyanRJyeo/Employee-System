@@ -92,8 +92,7 @@ table{
 	}
 
 	.card{
-		width: 90%;
-		border: 1px solid red;
+		width: 90% !important;
 	}
 
 }

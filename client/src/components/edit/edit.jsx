@@ -283,6 +283,8 @@ class Edit extends React.Component {
           <h1 className="title">Edit Employee: {this.state.editEmployee.firstname}</h1>
           <div className="profile-pic2">
             <img src={this.state.editEmployee.image}  alt="user-profile" />
+          </div>
+          <div className="buttonDiv">
             <button className="button3 mt-3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Change Profile Picture
             </button>
