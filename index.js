@@ -204,7 +204,6 @@ app.post('/api/delete/', async (req, res)=>{
 
 
 
-
 //==========================================
 // Initialize port
 //==========================================
@@ -229,4 +228,13 @@ let onClose = function(){
 
 process.on('SIGTERM', onClose);
 process.on('SIGINT', onClose);
+//==========================================
+
+
+
+
+
+// Export Test Configs
+//==========================================
+module.exports = {pool, app, server}
 //==========================================

@@ -6,9 +6,11 @@
 
 ### Frameworks
 
-Front-End: [React.js](https://reactjs.org/), [Bootstrap](https://getbootstrap.com/)
+Front-End: [React.js](https://reactjs.org/), [Bootstrap CDN](https://getbootstrap.com/)
 
 Back-End: [Node.js](https://nodejs.org/en/), [Express](https://expressjs.com/)
+
+Testing: [Mocha.js](https://mochajs.org/), [Chai.js](https://www.chaijs.com/api/)
 
 Database: [PostgreSQL](https://www.postgresql.org/)
 
@@ -45,6 +47,9 @@ npm run server
 
 # Run the React client only
 npm run react
+
+# Run the Test folder (Positive Testing & Performance / Load Testing)
+npm run test
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
