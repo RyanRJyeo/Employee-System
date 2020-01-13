@@ -4,7 +4,7 @@
   "description": "FullStack App of the Employee System",
   "main": "index.js",
   "scripts": {
-  	"client-intall": "cd client && npm install",
+  	"client-install": "cd client && npm install",
     "production": "node index.js",
     "server": "nodemon index.js",
     "react": "cd client && npm start",
