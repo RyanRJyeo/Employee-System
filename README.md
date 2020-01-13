@@ -6,7 +6,7 @@
 
 ### Frameworks
 
-Front-End: [React.js](https://reactjs.org/), [Bootstrap CDN](https://getbootstrap.com/)
+Front-End: [React.js](https://reactjs.org/), Bootstrap(CDN already included)
 
 Back-End: [Node.js](https://nodejs.org/en/), [Express](https://expressjs.com/)
 
@@ -29,6 +29,12 @@ port: 5432,
 };
 ```
 
+On your terminal (Creating table and seeding data into database):
+``` bash
+psql -d your-database-name -U your-computer-username -f tables.sql
+
+psql -d your-database-name -U your-computer-username -f seeds.sql
+```
 
 ## Quick Start
 
