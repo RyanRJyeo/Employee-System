@@ -54,7 +54,7 @@ npm run server
 # Run the React client only
 npm run react
 
-# Run the Test folder (Positive Testing & Performance / Load Testing)
+# Run the Test folder (Positive & Negative Testing, Load Testing)
 npm run test
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000

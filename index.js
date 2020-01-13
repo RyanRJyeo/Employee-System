@@ -236,5 +236,5 @@ process.on('SIGINT', onClose);
 
 // Export Test Configs
 //==========================================
-module.exports = {pool, app, server}
+module.exports = {pg, configs, server}
 //==========================================
