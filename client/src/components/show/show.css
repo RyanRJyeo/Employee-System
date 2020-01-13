@@ -1,0 +1,37 @@
+.card{
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.profile-pic{
+	width: 50%;
+	margin: 5% auto 0;
+}
+
+.button4{
+	background-color: #3E444A;
+	border: 1px solid #3E444A;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 5%;
+	padding: 10px 0;
+	transition: ease-in-out 0.3s;
+}
+
+.button4:hover{
+	background-color: white;
+	border: 1px solid #3E444A;
+	color: #3E444A;
+}
+
+.button4 a{
+	padding: 12px 40px;
+	text-decoration: none;
+	color: white;
+}
+
+.button4 a:hover{
+	color: #3E444A;
+}
