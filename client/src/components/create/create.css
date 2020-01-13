@@ -1,0 +1,16 @@
+.button3{
+	background-color: #3E444A;
+	border: 1px solid #3E444A;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 5%;
+	padding: 10px 20px;
+	transition: ease-in-out 0.3s;
+}
+
+.button3:hover{
+	background-color: white;
+	border: 1px solid #3E444A;
+	color: #3E444A;
+}
