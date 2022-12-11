@@ -17,7 +17,7 @@
   "dependencies": {
     "axios": "^0.19.1",
     "concurrently": "^5.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "method-override": "^3.0.0",
     "pg": "^7.17.1",
     "react-router": "^5.1.2",
